@@ -6,10 +6,9 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  BASE_HOA[:chipmunks] << "Dave"
-  BASE_HOA[:third_earthers] << "Snarf"
-  BASE_HOA[:jetsons] << "Astro"
-  return BASE_HOA[:chipmunks]
-  return BASE_HOA[:third_earthers]
-  return BASE_HOA[:jetsons]
+  new_char = 0 
+  while new_char < BASE_HOA.count do
+    BASE_HOA[show] << name
+    new_char += 1 
+  end
 end
