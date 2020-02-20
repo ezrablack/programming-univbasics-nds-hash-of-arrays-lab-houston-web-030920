@@ -9,7 +9,6 @@ def add_character(show, name)
   new_char = 0 
   while new_char < BASE_HOA.count do
     BASE_HOA[show] << name
-    return BASE_HOA
     new_char += 1 
   end
 end
