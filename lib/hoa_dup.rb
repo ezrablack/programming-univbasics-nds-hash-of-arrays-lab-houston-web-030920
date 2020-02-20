@@ -6,11 +6,6 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  new_char = 0 
-  while new_char < BASE_HOA.count do
-    BASE_HOA[show] << name
-    return BASE_HOA[show]
-    new_char += 1
-  end
-  
+  # Write your implementation here
+  # Should return the array of the 'show' argument
 end
